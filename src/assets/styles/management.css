@@ -1,4 +1,4 @@
-/* Section */
+
 .management {
   background: #fff;
   padding: 4rem 1.5rem;
@@ -21,21 +21,21 @@
   margin-top: .5rem;
 }
 
-/* Grid */
+
 .management-grid {
   display: grid;
   gap: 1.5rem;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 }
 
-/* Card */
+
 .mgr-card {
   position: relative;
   border-radius: 18px;
   overflow: hidden;
-  background: #f4e7da;             /* soft beige like the reference */
+  background: #f4e7da;             
   box-shadow: 0 10px 24px rgba(0,0,0,.08);
-  isolation: isolate;               /* keeps overlay stacking predictable */
+  isolation: isolate;              
   cursor: default;
   transition: transform .25s ease, box-shadow .25s ease;
 }
@@ -50,11 +50,11 @@
   box-shadow: 0 16px 30px rgba(0,0,0,.12);
 }
 
-/* Photo */
+
 .mgr-photo {
   width: 100%;
   height: 100%;
-  aspect-ratio: 4 / 5;              /* consistent portrait frames */
+  aspect-ratio: 4 / 5;              
   object-fit: cover;
   display: block;
   transition: transform .35s ease;
@@ -64,7 +64,6 @@
   transform: scale(1.03);
 }
 
-/* Bottom gradient overlay (like the prototype) */
 .mgr-card::after {
   content: "";
   position: absolute;
@@ -74,7 +73,6 @@
   z-index: 0;
 }
 
-/* Text */
 .mgr-info {
   position: absolute;
   left: 1rem;
@@ -97,9 +95,9 @@
   font-weight: 500;
 }
 
-/* Small screens */
+
 @media (max-width: 480px) {
-  .management { padding: 3rem 1rem; }
+  .management { padding: 5rem 1rem; }
   .management-header h2 { font-size: 1.8rem; }
   .mgr-name { font-size: 1.15rem; }
 }
