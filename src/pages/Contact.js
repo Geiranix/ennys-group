@@ -2,7 +2,7 @@ import React, { useRef, useState,useEffect } from 'react';
 import emailjs from 'emailjs-com';
 import '../assets/styles/contact.css';
 
-// Vite envs (CRA: use process.env.REACT_APP_...)
+
 const SERVICE_ID = process.env.REACT_APP_EMAILJS_SERVICE_ID;
 const TEMPLATE_ID = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
 const USER_ID  = process.env.REACT_APP_EMAILJS_PUBLIC_KEY;
@@ -46,9 +46,8 @@ const handleSubmit = async (e) => {
   e.preventDefault();
   setServerError('');
 
-  const formEl = e.currentTarget;             // ✅ this is the <form>
-
-  // (optional) custom validation
+  const formEl = e.currentTarget;            
+  
   const values = Object.fromEntries(new FormData(formEl).entries());
   const v = validate(values);
   setErrors(v);
@@ -59,8 +58,8 @@ const handleSubmit = async (e) => {
     const res = await emailjs.sendForm(
       SERVICE_ID,
       TEMPLATE_ID,
-      formEl,                                   // ✅ pass the actual form element
-      USER_ID                                // or call emailjs.init(PUBLIC_KEY) once
+      formEl,                                   
+      USER_ID                                
     );
     console.log('EmailJS OK:', res.status, res.text);
     setSubmitted(true);
@@ -75,7 +74,7 @@ const handleSubmit = async (e) => {
 };
 
 
-  // optional: clear field-specific error when the user types (still not a handleChange)
+  
   const clearError = (e) => {
     const name = e.target.name;
     if (errors[name]) setErrors((prev) => ({ ...prev, [name]: undefined }));

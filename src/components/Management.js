@@ -6,7 +6,7 @@ import rol3 from "../assets/images/rol3.jpg"
 
 const team = [
   {
-    name: "Joshua Odeniran",
+    name: "Frank Aladeojebi",
     title: "Chief Creative Officer",
     photo: rol2,
   },

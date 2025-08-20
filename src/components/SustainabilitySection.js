@@ -32,7 +32,7 @@ const SustainabilitySection = () => {
           We are committed to <span>best practices!</span>
         </h2>
         <p>
-          In addition to checking the quality of the cocoa beans, SGC also conducts
+          In addition to checking the quality of the cocoa beans, Ennys Group also conducts
           regular audits of its suppliers and farmers to ensure they are following
           ethical and sustainable practices. This includes checking for proper labor
           practices, use of pesticides, and other factors that can impact the quality

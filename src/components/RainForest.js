@@ -1,6 +1,6 @@
 import React from 'react';
 import '../assets/styles/global.css';
-import cocoaImage from '../assets/images/eglogo-stacked-dark.png'; // Use your image path
+import cocoaImage from '../assets/images/eglogo-stacked-dark.png'; 
 
 const RainforestCertification = () => {
   return (
@@ -13,7 +13,7 @@ const RainforestCertification = () => {
           <p>
             The Rainforest Alliance certification is a well-respected and globally recognized label that is awarded to
             companies that meet strict standards of sustainability, social responsibility, and environmental
-            conservation. This significant milestone is a testament to Sunbeth’s commitment to sustainability,
+            conservation. This significant milestone is a testament to Ennys Group’s commitment to sustainability,
             transparency, and the well-being of its farmers and the environment.
           </p>
         </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import "../assets/styles/miniAbout.css";
-import aboutImage from "../assets/images/eglogo-stacked-dark.png"; // Replace with actual path
+import aboutImage from "../assets/images/eglogo-stacked-dark.png"; 
 
 const MiniAbout = () => {
   return (
@@ -11,7 +11,7 @@ const MiniAbout = () => {
         </div>
         <div className="mini-about-content">
           <h4 className="mini-about-subtitle">
-            <span className="orange-line"></span> About SGC
+            <span className="orange-line"></span> About Ennys Group
           </h4>
           <h2>
             Excellent Logistics and <br />
@@ -26,8 +26,8 @@ const MiniAbout = () => {
           </p>
           <ul>
             <li>
-              <span className="bullet"></span> Since 2017 Ennys Group has sourced
-              and exported more than 150,000Mt. of cocoa beans and raw cashew
+              <span className="bullet"></span>  Ennys Group has sourced
+              and exported more than 200,000Mt. of cocoa beans and raw cashew
               nuts from Nigeria and has proven a reliable supplier of
               high-quality products to the markets.
             </li>

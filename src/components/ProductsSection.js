@@ -12,8 +12,8 @@ const ProductsSection = () => {
         <h3>COCOA</h3>
         <p>
           Cocoa is a tropical evergreen tree that produces cocoa beans, which are used
-          to make chocolate. SGC sources its beans directly from farmers in the region,
-          who produce some of the finest cocoa in the country. SGC is dedicated to
+          to make chocolate. Ennys sources its beans directly from farmers in the region,
+          who produce some of the finest cocoa in the country. Ennys is dedicated to
           providing farmers with necessary resources and training to increase yield
           and quality of the beans.
         </p>
@@ -25,9 +25,9 @@ const ProductsSection = () => {
         </div>
         <h3>CASHEW</h3>
         <p>
-          Sunbeth Global Concepts (SGC) is a leading exporter of premium quality cashew
+          Ennys Group is a leading exporter of premium quality cashew
           nuts, sourcing from over 19 states across Nigeria, each renowned for producing
-          exceptional cashews. Committed to sustainable practices, SGC actively empowers
+          exceptional cashews. Committed to sustainable practices, Ennys actively empowers
           farmers with the resources and knowledge they need to optimize their cashew
           harvests, fostering a thriving and resilient cashew industry.
         </p>

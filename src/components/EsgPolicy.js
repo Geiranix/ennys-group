@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/styles/sustainabilityPolicy.css'; // Common styling for all policies
+import '../assets/styles/sustainabilityPolicy.css'; 
 
 const ESGPolicy = () => {
   return (
@@ -7,14 +7,14 @@ const ESGPolicy = () => {
       <div className="policy-header">
         <h2>ESG Policy</h2>
         <p>
-          Sunbeth Global Concepts Limited is committed to the highest Environmental, Social, and Governance standards...
+          Ennys Group is committed to the highest Environmental, Social, and Governance standards...
         </p>
       </div>
 
       <div className="policy-section">
         <h3>1. Introduction</h3>
         <p>
-          Sunbeth was established in 2017 as a trading company for cocoa and cashew, exporting over 150,000 metric tonnes.
+          Ennys Group is a trading company for cocoa and cashew, exporting over 200,000 metric tonnes.
         </p>
       </div>
 
