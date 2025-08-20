@@ -1,4 +1,4 @@
-/* Reset & base */
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +9,7 @@ a {
   color: inherit;
 }
 
-/* Navbar */
+
 .navbar {
   position: fixed;
   width: 100%;
@@ -29,40 +29,114 @@ a {
   font-weight: bold;
 }
 
-/* Menu icon (hamburger) */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 14px;
+}
+
+
+.nav-item {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+
+.nav-link,
+.dropdown-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  background: transparent;
+  color: #fff;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+}
+
+
+.active-link {
+  background: #fff;
+  color: #b22020;
+}
+
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  min-width: 100%;       
+  background: #fff;
+  color: #000;
+  list-style: none;
+  padding: 6px 0;
+  margin: 0;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+  z-index: 2000;
+}
+
+.dropdown-menu li a {
+  display: block;
+  padding: 8px 12px;
+  color: #000;           
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.dropdown-menu li a:hover {
+  background: #f2f2f2;
+  color: #000;
+}
+
+
+@media (hover: hover) {
+  .nav-link:hover,
+  .dropdown-toggle:hover {
+    background: #fff;
+    color: #b22020;
+  }
+}
+
+
 .menu-icon {
   display: none;
   font-size: 1.5rem;
   cursor: pointer;
 }
 
-/* Nav Links */
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 25px;
+
+
+
+
+
+
+.nav-links a.active-link,
+.nav-links .dropdown-toggle.active-link {
+  background: #fff;
+  color: #b22020;   
+  border-radius: 4px;
+  padding: 6px 10px;
+  transition: all 0.3s ease;
 }
 
-.nav-links li {
-  position: relative;
-}
-/* Ensure each dropdown li is the positioning context */
-.nav-links li.dropdown { position: relative; }
 
-/* Desktop (default) – dropdown opens below */
-.dropdown-menu {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  list-style: none;
- background: #b22020;
-  color: #fff;
-  padding: 10px 0;
-  display: flex;
-  flex-direction: column;
-  row-gap: 5px;
-  width: 110px;
-  z-index: 2000;
+.dropdown-menu li a {
+  color: #000;      
+  padding: 6px 10px;
+}
+
+.dropdown-menu li a:hover {
+  background: #f2f2f2;
+  color: #000;       
 }
 
 @media (max-width: 768px) {
@@ -80,33 +154,47 @@ a {
     align-items: flex-start;
     max-height: 0;
     border-radius: 7px;
-    overflow: hidden;                /* keep collapsed state clean */
+    overflow: hidden;              
     transition: max-height 0.4s ease-in-out;
   }
-
+  .nav-link,
+.dropdown-toggle {
+  color: #000;
+  width: 100%;
+  text-align: left;
+  padding: 12px 14px;
+}
+.active-link {
+  background: #f5f5f5;
+  color: #b22020;
+}
+.dropdown { width: 100%; }
   .nav-links.active {
     max-height: 500px;
-    overflow: visible;               /* allow submenus to extend out */
+    background-color: white;
+    overflow: visible;               
   }
+  .dropdown-menu {
+  position: static;  
+  min-width: 0;
+  width: 100%;
+  margin: 0 0 4px 0;
+  box-shadow: none;
+  border: none;
+  background: #fff;
+}
+
+.dropdown-menu li a {
+  padding: 10px 16px;
+}
 
   .nav-links a, .nav-links span { color: black; }
 
   .nav-links li { padding: 15px; text-align: center; }
 
-  /* MOBILE OVERRIDE: open the submenu BESIDE the label, toward the left */
+  
   .nav-links li.dropdown { position: relative; }
-  .dropdown-menu {
-    top: 5px; 
-    left: 100px;                         /* align with trigger’s top */                     /* cancel desktop left */        /* place it to the LEFT of the trigger */
-    min-width: 100px;
-    background: #fff;
-    color: #000;
-    border: 1px solid rgba(0,0,0,0.1);
-    border-radius: 8px;
-    padding: 6px 0;
-    box-shadow: 0 8px 24px rgba(0,0,0,0.12);
-    z-index: 3000;
-  }
+  
 
   .dropdown-menu li { padding: 8px 12px; }
 }
