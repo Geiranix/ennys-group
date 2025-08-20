@@ -13,7 +13,7 @@ const cultureData = [
     description:
       "We value and respect the different perspectives and backgrounds of our colleagues. We listen to ideas and opinions and create a safe space where everyone feels heard and valued. We treat everyone with kindness and empathy.",
     icon: <FaFan />,
-    bgColor: "#000000", // black
+    bgColor: "#000000", 
     color: "#ffffff",
   },
   {

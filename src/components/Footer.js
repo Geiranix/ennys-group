@@ -2,11 +2,6 @@ import React from "react";
 import "../assets/styles/footer.css";
 import {Link} from "react-router-dom"
 import {
-  FaLinkedin,
-  FaFacebook,
-  FaTwitter,
-  FaInstagram,
-  FaYoutube,
   FaPhoneAlt,
   FaMapMarkerAlt,
 } from "react-icons/fa";
@@ -16,7 +11,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-container">
-        {/* Branding */}
+        
         <div className="footer-column footer-brand">
             <div className="logo"><img src={logo} alt="ennys group global logo"></img>
              <h2>Ennys Group</h2>

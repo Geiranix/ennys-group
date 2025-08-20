@@ -1,4 +1,4 @@
-import React, { useRef, useState,useEffect } from 'react';
+import React, {  useState,useEffect } from 'react';
 import emailjs from 'emailjs-com';
 import '../assets/styles/contact.css';
 
@@ -12,11 +12,10 @@ if (process.env.NODE_ENV === 'development') {
 }
 
 export default function Contact() {
-  const formRef = useRef(null);
   const [isSending, setIsSending] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const [serverError, setServerError] = useState('');
-  const [errors, setErrors] = useState({}); // only updated on submit
+  const [errors, setErrors] = useState({}); 
 
   useEffect(() => {
   if (USER_ID) {
