@@ -1,0 +1,42 @@
+.policy-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 4rem 1rem;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+  color: #1a1a1a;
+}
+
+.policy-header {
+  text-align: left;
+  margin-bottom: 2.5rem;
+}
+
+.policy-header h2 {
+  font-size: 2.5rem;
+  color: #b22020; /* cocoa orange */
+  margin-bottom: 1rem;
+}
+
+.policy-header p {
+  font-size: 1.2rem;
+  color: #444;
+  line-height: 1.8;
+}
+
+.policy-section {
+  margin-bottom: 2rem;
+}
+
+.policy-section h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.policy-section p {
+  font-size: 1.1rem;
+  line-height: 1.75;
+  color: #555;
+}
