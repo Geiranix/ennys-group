@@ -4,13 +4,10 @@ import { BrowserRouter as Router,Routes,Route } from "react-router-dom";
 import Home from "./pages/Home"
 import About from "./pages/About";
 import Products from "./pages/Products";
-import Sustainability from "./pages/Sustainability";
-import EsgPolicy from "./components/EsgPolicy";
 import EudrPolicy from "./components/EudrPolicy";
 import RainForestPolicy from "./components/RainForestPolicy"
-import HumanRightsPolicy from "./components/HumanRightsPolicy";
-import MiniServices from "./components/MiniServices";
-import Culture from "./components/Culture";
+import MiniServices from "./components/ServicesSection";
+import Culture from "./components/CultureSection";
 import Management from "./components/Management";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
@@ -33,11 +30,8 @@ function App() {
           <Route path="/company/management" element={<Management />} />
           <Route path="/services" element={<MiniServices/>} />
           <Route path="/contact-us" element={<Contact/>}/>
-          <Route path="/sustainability" element={<Sustainability />} />
           <Route path="/sustainability/rainforestpolicy" element={<RainForestPolicy/>} />
-        <Route path="/sustainability/esgpolicy" element={<EsgPolicy/>}/>
         <Route path="/sustainability/eudrpolicy" element={<EudrPolicy/>}/>
-        <Route path="/sustainability/humanrightspolicy" element ={<HumanRightsPolicy/>}/>
       </Routes>
       </main>
       

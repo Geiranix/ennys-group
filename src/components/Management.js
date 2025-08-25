@@ -12,7 +12,7 @@ const team = [
   },
   {
     name: "Michael Olukayode Eni-Omosule",
-    title: "Chief Executive Officer",
+    title: "Managing Director",
     photo: rol3,
   },
   {
