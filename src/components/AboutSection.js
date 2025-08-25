@@ -1,14 +1,13 @@
 import React from "react";
 import "../assets/styles/aboutSection.css";
-import warehouse from "../assets/images/warehouse-nigeria.jpg"
 import { Users, Award, Globe, Leaf } from "lucide-react";
-
+import company from "../assets/images/sustainable-farming-practices.jpg"
 
 export default function AboutSection() {
   return (
     <section id="about" className="about">
       <div className="about-container">
-        {/* Header */}
+        
         <div className="about-header">
           <div className="badge">
             About Ennys Trading Company
@@ -22,9 +21,8 @@ export default function AboutSection() {
           </p>
         </div>
 
-        {/* Main Content Grid */}
         <div className="about-grid">
-          {/* Content */}
+          
           <div className="about-content">
             <div className="about-section">
               <h3>Our Heritage</h3>
@@ -34,8 +32,8 @@ export default function AboutSection() {
                 and service to farming communities.
               </p>
               <p>
-                Today, that legacy continues under the leadership of his son Michael Olukayode 
-                Eniommosule, a seasoned global network engineer with international experience 
+                Ennys was  created to be the export arm of Mike Model Investments and the legacy continues under the leadership of his son Michael Olukayode 
+                Eniomosule, a seasoned global network engineer with international experience 
                 in one of Canada's top telecommunications firms, bringing modern innovation 
                 to a traditional industry.
               </p>
@@ -63,18 +61,17 @@ export default function AboutSection() {
             </div>
           </div>
 
-          {/* Image */}
+         
           <div className="about-image">
             <div className="about-image-container">
-              <img
-                src="https://images.unsplash.com/photo-1585094659595-04a44bcba305?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhZnJpY2FuJTIwZmFybWVycyUyMHN1c3RhaW5hYmxlfGVufDF8fHx8MTc1NjA3MzgyOXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+              <img src={company}
                 alt="African farmers working sustainably"
               />
             </div>
           </div>
         </div>
 
-        {/* Goals Grid */}
+       
         <div className="goals-section">
           <div className="goals-header">
             <h3>Our Goals</h3>

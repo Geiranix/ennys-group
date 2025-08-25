@@ -1,5 +1,6 @@
 import { Leaf, Shield, Users, Eye } from "lucide-react";
 import "../assets/styles/commitmentSection.css";
+import RainforestCertification from "../assets/images/rainforest.png";
 
 export default function CommitmentSection() {
   const commitments = [
@@ -32,7 +33,7 @@ export default function CommitmentSection() {
   return (
     <section id="commitment" className="commitment">
       <div className="commitment-container">
-        {/* Header */}
+        
         <div className="commitment-header">
           <div className="badge">
             🌱 Our Rainforest Alliance Commitment
@@ -46,18 +47,18 @@ export default function CommitmentSection() {
           </p>
         </div>
 
-        {/* Main Content */}
+        
         <div className="commitment-main">
-          {/* Image */}
+          
           <div className="commitment-image">
             <div className="commitment-image-container">
               <img
-                src="https://images.unsplash.com/photo-1623944156984-130d29e4f9ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhZ3JpY3VsdHVyYWwlMjBleHBvcnQlMjBzaGlwcGluZ3xlbnwxfHx8fDE3NTYwNzM4MzB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-                alt="Sustainable agricultural practices"
+                src={RainforestCertification}
+                alt="RainforestCertification "
               />
             </div>
             
-            {/* Certification Badge */}
+           
             <div className="certification-badge">
               <div className="cert-icon-container">
                 <Leaf />
@@ -67,7 +68,7 @@ export default function CommitmentSection() {
             </div>
           </div>
 
-          {/* Content */}
+          
           <div className="commitment-content">
             <div className="commitment-section">
               <h3>The Rainforest Alliance Seal</h3>
@@ -96,7 +97,7 @@ export default function CommitmentSection() {
           </div>
         </div>
 
-        {/* Bottom Grid */}
+        
         <div className="commitment-bottom">
           {commitments.slice(2).map((commitment, index) => {
             const IconComponent = commitment.icon;
@@ -116,7 +117,7 @@ export default function CommitmentSection() {
           })}
         </div>
 
-        {/* Mission Statement */}
+        
         <div className="mission-statement">
           <p>
             "By aligning with the Rainforest Alliance, Ennys Trading Company strengthens its mission 

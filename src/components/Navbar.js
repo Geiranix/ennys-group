@@ -29,7 +29,7 @@ const Navbar = () => {
     <nav className="navbar">
       {/* Logo clickable back to Home */}
       <NavLink to="/" className="logo" onClick={closeMenu}>
-        Ennys Group
+        Ennys 
       </NavLink>
 
       {/* Mobile menu icon */}
@@ -131,16 +131,6 @@ const Navbar = () => {
               <li>
                 <NavLink to="/sustainability/eudrpolicy" onClick={closeMenu}>
                   EUDR Policy
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/sustainability/humanrightspolicy" onClick={closeMenu}>
-                  HR Policy
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/sustainability/esgpolicy" onClick={closeMenu}>
-                  ESG Policy
                 </NavLink>
               </li>
               <li>
