@@ -52,6 +52,7 @@ export default function Footer() {
               <div className="footer-contact">
                 <div className="contact-item">
                   <MapPin />
+                  <span>Corporate Office: Georgian Drive, Barrie,Ontario,Canada</span>
                   <span>Off Catholic Church Egbeta Edo State, Nigeria</span>
                 </div>
                 <div className="contact-item">
