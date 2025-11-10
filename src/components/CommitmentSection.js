@@ -42,15 +42,14 @@ export default function CommitmentSection() {
             Sustainability is Not Just a Goal – It's Our Responsibility
           </h2>
           <p className="commitment-subtitle">
-            We are proud to be Rainforest Alliance Certified in cocoa, a recognition of our 
-            dedication to ethical and environmentally responsible practices.
+            We are working with rainforst certifying body to get our certifications.
           </p>
         </div>
 
         
         <div className="commitment-main">
           
-          <div className="commitment-image">
+          {/* <div className="commitment-image">
             <div className="commitment-image-container">
               <img
                 src={RainforestCertification}
@@ -66,14 +65,14 @@ export default function CommitmentSection() {
               <div className="cert-title">Rainforest Alliance</div>
               <div className="cert-subtitle">Certified</div>
             </div>
-          </div>
+          </div> */}
 
           
           <div className="commitment-content">
             <div className="commitment-section">
               <h3>The Rainforest Alliance Seal</h3>
               <p>
-                The Rainforest Alliance seal is more than a symbol; it reflects our pledge to 
+                The Rainforest Alliance seal is more than a symbol; we are currnetly working with certifying bodies to get the certifications needed for the ainforest alliance seal,it reflects our pledge to 
                 responsible sourcing and sustainable practices that benefit both people and the planet.
               </p>
             </div>
