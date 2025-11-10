@@ -1,6 +1,5 @@
 import { Leaf, Shield, Users, Eye } from "lucide-react";
 import "../assets/styles/commitmentSection.css";
-import RainforestCertification from "../assets/images/rainforest.png";
 
 export default function CommitmentSection() {
   const commitments = [

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../assets/styles/sustainabilityPolicy.css';
-import rainforest from "../assets/images/rainforest.png"
+
 
 const RainforestPolicy = () => {
   return (
