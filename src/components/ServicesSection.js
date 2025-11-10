@@ -10,7 +10,7 @@ export default function ServicesSection() {
       description: "We specialize in the sourcing and export of premium Nigerian agricultural products",
       features: [
         "Raw Cashew Nuts – carefully selected, graded, and packaged to international standards",
-        "Cocoa Beans – Rainforest Alliance Certified, reflecting our commitment to sustainability"
+        "Cocoa Beans –  committed to sustainabe sourcing"
       ],
       color: "green"
     },
@@ -52,7 +52,6 @@ export default function ServicesSection() {
       title: "Sustainability Consulting",
       description: "Expert guidance on climate-smart agricultural practices",
       features: [
-        "Rainforest Alliance certification expertise",
         "Environmental impact assessments",
         "Climate-smart agriculture training"
       ],

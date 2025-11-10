@@ -30,7 +30,7 @@ const RainforestPolicy = () => {
       <div className="policy-section">
         <h3>1. Certified Farming Practices</h3>
         <p>
-          We work closely with Rainforest-certified cooperatives to ensure best practices in
+          We are currently working  with Rainforest-certified cooperatives to ensure best practices in
           biodiversity, agroforestry, and water conservation.
         </p>
       </div>

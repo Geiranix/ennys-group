@@ -46,7 +46,7 @@ export default function AboutSection() {
                 </div>
                 <div className="feature-text">
                   <div className="feature-title">Certified Excellence</div>
-                  <div className="feature-subtitle">Rainforest Alliance</div>
+                  {/* <div className="feature-subtitle">Rainforest Alliance</div> */}
                 </div>
               </div>
               <div className="feature-item">
