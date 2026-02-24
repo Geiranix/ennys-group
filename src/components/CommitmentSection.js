@@ -1,5 +1,6 @@
 import { Leaf, Shield, Users, Eye } from "lucide-react";
 import "../assets/styles/commitmentSection.css";
+import RainforestCertification from "../assets/images/rainforest.png";
 
 export default function CommitmentSection() {
   const commitments = [
@@ -41,14 +42,14 @@ export default function CommitmentSection() {
             Sustainability is Not Just a Goal – It's Our Responsibility
           </h2>
           <p className="commitment-subtitle">
-            We are working with rainforst certifying body to get our certifications.
+            Ennys Group Inc is  officially Rainforest Alliance Certified in Cocoa.
           </p>
         </div>
 
         
         <div className="commitment-main">
           
-          {/* <div className="commitment-image">
+          <div className="commitment-image">
             <div className="commitment-image-container">
               <img
                 src={RainforestCertification}
@@ -64,15 +65,16 @@ export default function CommitmentSection() {
               <div className="cert-title">Rainforest Alliance</div>
               <div className="cert-subtitle">Certified</div>
             </div>
-          </div> */}
+          </div>
 
           
           <div className="commitment-content">
             <div className="commitment-section">
               <h3>The Rainforest Alliance Seal</h3>
               <p>
-                The Rainforest Alliance seal is more than a symbol; we are currently working with certifying bodies to get the certifications needed for the ainforest alliance seal,it reflects our pledge to 
-                responsible sourcing and sustainable practices that benefit both people and the planet.
+                This certification reflects our commitment to responsible sourcing, environmental stewardship, human rights protection, and full supply chain traceability. It reinforces our dedication to operating a transparent, ethical, and sustainability driven cocoa trading platform that meets international standards.
+We remain committed to continuous improvement and to supporting a more sustainable future for cocoa producing communities and global buyers alike
+
               </p>
             </div>
 

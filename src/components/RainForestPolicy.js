@@ -1,5 +1,6 @@
 import React from 'react';
 import '../assets/styles/sustainabilityPolicy.css';
+import rainforest from "../assets/images/rainforest.png"
 
 
 const RainforestPolicy = () => {
@@ -10,27 +11,27 @@ const RainforestPolicy = () => {
           <div className="policy-hero-text">
             <h2>Rainforest Alliance Commitment</h2>
             <p>
-              Ennys Group is actively working with certifying bodies in other to be in compliance with Rainforest Alliance to strengthen ecosystem
+              Ennys Group is actively working with certifying bodies to be in compliance with Rainforest Alliance to strengthen ecosystem
               resilience, improve farmer livelihoods, and promote ethical sourcing.
             </p>
           </div>
 
-          {/* Image block (shared styles) */}
-          {/* <figure className="policy-media">
+          
+          <figure className="policy-media">
             <img
               src={rainforest}
               alt="Rainforest Alliance Certified seal"
               loading="lazy"
             />
             <figcaption>Rainforest Alliance Certified™</figcaption>
-          </figure> */}
+          </figure>
         </div>
       </header>
 
       <div className="policy-section">
         <h3>1. Certified Farming Practices</h3>
         <p>
-          We are currently working  with Rainforest-certified cooperatives to ensure best practices in
+          We work  with Rainforest certified cooperatives to ensure best practices in
           biodiversity, agroforestry, and water conservation.
         </p>
       </div>
