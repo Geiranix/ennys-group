@@ -61,7 +61,7 @@ export default function Footer() {
                 </div>
                 <div className="contact-item">
                   <Mail />
-                  <span>michaeleniomosule@ennysgroup.com</span>
+                  <span>info@ennysgroup.com</span>
                 </div>
               </div>
             </div>
