@@ -2,7 +2,7 @@ import React from "react";
 import "../assets/styles/management.css";
 import rol1 from "../assets/images/rol1.jpg"
 import rol2 from "../assets/images/rol2.jpg"
-import rol3 from "../assets/images/rol3.jpg"
+
 
 const team = [
   {
@@ -13,7 +13,7 @@ const team = [
   {
     name: "Michael Olukayode ",
     title: "Managing Director",
-    /*photo: rol3,*/
+    
   },
   {
     name: "Gloria Omosule",
