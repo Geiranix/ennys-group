@@ -11,13 +11,13 @@ const team = [
     photo: rol2,
   },
   {
-    name: "Michael Olukayode Eni-Omosule",
+    name: "Michael Olukayode ",
     title: "Managing Director",
-    photo: rol3,
+    /*photo: rol3,*/
   },
   {
     name: "Gloria Omosule",
-    title: "Chief Financial Officer",
+    title: "Human Resources",
     photo: rol1,
   }
   
